@@ -1,0 +1,318 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    width:vh;
+    background-color: #F9F9FF;
+}
+
+
+/* Navigation Design Starts Here*/
+.navigation-part{
+    display:flex;
+    justify-content: space-between;
+    padding-top:60px;
+}
+.navigation-part h1{
+    font-family: sans-serif;
+    font-size:25px;
+    padding-left:20px;
+}
+.sol{
+    padding-left: 70px;
+}
+.navigation-part a{
+    padding:0px 20px;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    transition: all ;
+}
+.link:hover{
+    color:#8B8EFF;
+    border-bottom: 2px solid;
+    border-radius: 20px; 
+}
+.btn{
+    width:100px;
+    height:45px;
+    background-image: linear-gradient(to bottom right, #b0b9fc, #5d479e);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color:white;
+
+}
+/* Navigation Design Ends Here*/
+
+
+/* Top Part Design Starts Here*/
+.highlight{
+    color:#5d479e;
+}
+.top-part{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 200px ;
+    margin: 0%;
+}
+.top-part h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top-part p{
+    font-size:15px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 0px;
+}
+.gs{
+    font-size:20px;
+    padding:15px;
+    margin-top: 20px;
+    color:#F9F9FF;
+    background-image: linear-gradient(to bottom right, #98a1e2, #5d479e);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+
+}
+/* Top Part Design Ends Here*/
+
+
+/* Icons Design Starts Here*/
+.icons-part{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;    
+    margin: 100px;
+}
+.icons-part p{
+    font-size:30px;
+}
+.icons-part h2{
+    color:#8B8EFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;    
+}
+/* Icons Design Ends Here*/
+
+
+/*Second Part Design Starts Here*/
+.second-part{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.second-part h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom:25px;
+    font-size:40px;
+}
+.success {
+    color: #8B8EFF;
+    text-decoration: underline black solid 2px;
+}
+.second-part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: rgb(102, 100, 100);
+}
+.learn {
+    border: 0px;
+    background-color: #F9F9FF;
+    cursor:pointer;
+    color:#8B8EFF;
+    font-size: 15px;
+
+}
+/*Second Part Design Ends Here*/
+
+
+/*Third Part Design Starts Here*/
+.third-part{
+    display:flex;
+    padding: 0px;
+    margin-left:100px;
+    text-align: center;
+    gap:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third-part h1{
+    font-size: 25px;
+    padding:20px 0px;
+    margin:0px 10px;
+
+}
+.third-part p{
+    font-size: 12px;
+    padding:15px;
+    color: rgb(105, 104, 104);
+}
+.img2nd{
+    padding-top:100px;
+}
+.third-btn{
+    width:170px;
+    height:50px;
+    background-image: linear-gradient(to bottom right, #b0b9fc, #5d479e);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color: #F9F9FF;
+    padding: 15px;
+
+}
+/*Third Part Design Ends Here*/
+
+
+/*Fourth Part Design Starts Here*/
+.fourth-part{
+    display: flex;
+    align-items: center;
+    margin: 10px 70px;
+}
+.loner{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:150px;
+    margin-bottom:50px;
+}
+.fourth-left{
+    text-align: right;
+}
+.fourth-right{
+    text-align: left;
+}
+.fourth-mid{
+   padding: 0px 30px;
+}
+.fourth-part h3{
+    padding:15px 0px;
+}
+.fourth-part p{
+    color: rgb(105, 104, 104);
+}
+/*Fourth Part Design Ends Here*/
+
+/*Fifth Part Design Starts Here*/
+.fifth-part{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+.ul-fifth{
+    list-style-type:none;
+}
+
+.contact{
+    background-color: #f3f3f8;
+    padding: 80px;
+    width: 300px;
+    font-size: larger;
+    box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+-webkit-box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+-moz-box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+}
+.fifth-part input{
+    background-color: #d2ddf1;
+    border:none;
+    height:40px;
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.fifth-part h1{
+    text-align: center;
+}
+
+.login{
+    width:100px;
+    height:45px;
+    background-image: linear-gradient(to bottom right, #b0b9fc, #5d479e);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color:white;
+
+
+}
+/*Fifth Part Design Ends Here*/
+
+
+/*Final Part Design Starts Here*/
+
+.final-part{
+    display:flex;
+    justify-content: space-between;
+    padding: 70px;
+    background-color:#f3f3f8 ;
+}
+.final-part h5{
+    padding:18px;
+    color: gray;
+}
+.final-part ul{
+    list-style-type:none;   
+    padding:10px 0px;
+}
+.ul-final a{
+    color: rgb(66, 66, 66);
+    transition:all;
+    padding:0px 20px;
+    text-decoration: none;
+    transition: all ;
+}
+li{
+    padding:5px 0px;
+}
+.pink:hover{
+    color:none;
+    text-decoration-line: underline;
+}
+
+.final-part h6{
+    padding:5px 0px;
+}
+/*Final Part Design Ends Here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
